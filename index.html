@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EustaceTutor</title>
+        <link rel="stylesheet" href="JavaScriptStyle.css">
+        
+    </head>
+    
+    <!--Body is below-->
+    <body>
+        
+        <!--Title header-->
+        <header id="head">Eustace Tutoring Channel</header>
+        <div class="myNav">
+            <a href="..\MainPage/LogIns.html">Home Page</a>
+        </div>
+
+        <!--Sign in form is below-->
+        <div class="formSign" id="SignInForm">  
+            <h2 id="H">Create Account</h2>
+            <br><input type="text" id="nameSignIn" autofocus placeholder="Username">
+            
+            <div class="error formHide" id="errorMssg">
+                <h5 id="errorPassword">Name should be 6 or more charaters</h5>   
+            </div>
+            <br class="space" id="space1"><br class="space" id="space2">
+            <input type="email" id="emailSignIn" placeholder="Email Address"><br>
+            <br><input type="password" id="passwordSignIn" placeholder="Password"><br>
+            <br><input type="password" id="confirmPassword" placeholder="Confirm Password">
+            
+            <!--Error message for incorrect password-->
+            <div class="error">
+                <h5 id="errorPassword"></h5>   
+            </div>
+            
+            <a href="JavaScriptHome.html" class="SIGNUP"><button type="submit" id="signInButton">Sign up</button></a>
+            <p><a class="SignForm" id="linkSignIn">Already have an account? Log in</a></p>
+        </div>
+
+        <!--Log in form is below-->
+        <div class="formLog formHide" id="LogInForm">
+            <h2>Login</h2>
+            <br><input type="text" autofocus placeholder="Username or email" id="nameLogIn"><br>
+            <br><input type="text" placeholder="Password" id="passwordLogIn">
+            <br><br><a href="JavaScriptHome.html" class="LOGIN"><button type="submit" id="LogButton">Login</button></a>
+            <p><a href="#" target="" class="ForgotPassword">Forgot password?</a></p>
+            <p><a class="CreateForm" id="linkRegister">Don't have an account? Create account</a></p>
+        </div>
+        
+        <!--Script is below-->
+        <script src="JavaScriptJS.js"></script>
+    </body>
+</html>

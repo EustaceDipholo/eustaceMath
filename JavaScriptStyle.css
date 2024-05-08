@@ -1,0 +1,117 @@
+
+body{
+    background-repeat:no-repeat;
+    background-image:url("black-1072366_1920.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    font-family:arial;
+    height:100em;
+    margin:0;
+    font-family:'Tahoma';
+}
+.SIGNUP,.LOGIN{
+    text-decoration:none;
+    color:white;
+}
+header{
+    border-radius:10px;
+    color:white;
+    font-size:45px;
+    font-weight:bold;
+    padding-bottom:15px;
+    padding-left:31%;
+    padding-top:4%;
+}
+header:hover{
+    cursor:pointer;
+}
+.formSign,.formLog{
+    margin-left:31%;
+    color:white;
+    display:inline-block;
+    width:31%;
+    max-width:31%;
+    padding-left:4%; 
+    border-radius:8px;   
+}
+.formSign,.formLog{
+    background-color:rgba(20, 20, 20, 0.46);
+    cursor:pointer;
+}
+input{
+    border-radius:3px;
+    padding:10px;
+    border-width:5px;
+    border-style:solid;
+    width:55%;
+    height:25px;
+}
+.formHide{
+    display:none;
+}
+h2{
+    margin-bottom:8%;
+    display:inline-block;
+    font-size:30px;
+}
+h2:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+p,p a{
+    margin-top:20px;
+    color:white;
+}
+
+button{
+    
+    background-color:rgba(0, 128, 0, 0.849);
+    border:none;
+    color:white;
+    margin-left:0.2%;
+    padding:6px;
+    width:62%;
+    font-weight:bolder;
+    font-size:15px;
+    height:35px;
+    border-radius:10px;
+
+}
+#linkSignIn{
+    margin-left:10px;
+}
+button:hover{
+    cursor:pointer;
+}
+button:active{
+    background-color:rgba(0, 0, 0, 0.808);
+    opacity:8;
+    transition:0.2s ease-in-out;
+}
+.CreateForm:hover,.SignForm:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+.ForgotPassword{
+    text-decoration:none;
+}
+.ForgotPassword:hover{
+    text-decoration:underline;
+}
+.error{
+    margin-top:0;
+}
+h5{
+    color:rgba(255, 0, 0, 0.808);
+    margin-top:0;
+}
+.myNav a{
+    display:flex;
+    position:relative;
+    left:417px;
+    color:white;
+    margin-bottom:30px;
+    font-family:'Tahoma';
+    font-weight:bold;
+}
